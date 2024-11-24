@@ -1,0 +1,89 @@
+.popup {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fcf2e4;
+  border: 2px solid #ccc;
+  padding: 10px 10px;
+  z-index: 1000;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px !important;
+  width: 90%;
+  max-width: 500px;
+}
+
+body.blur {
+    filter: blur(5px); /* Adjust the blur intensity as needed */
+    transition: filter 0.3s ease; /* Smooth transition for blur effect */
+}
+
+
+.fa-check-circle {
+  color: white;
+  background-color: rgb(191, 249, 191);
+  padding: 5px;
+  border-radius: 50%;
+  border: rgba(255, 255, 255, 0.817) 2px solid;
+}
+
+.popup-content {
+  position: relative;
+  padding: 20px;
+  text-align: left;
+}
+
+.close {
+  position: absolute;
+  top: -5px;
+  right: 2%;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(242, 131, 131);
+
+}
+
+.inner-tr {
+  background-color: rgba(46, 26, 1, 0.502) !important;
+  color: rgba(255, 251, 240, 0.804) !important;
+  font-weight: 500;
+  font-family: "Signika", sans-serif !important;
+  font-size: 17px;
+}
+
+.inner-table {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: "Signika", sans-serif !important;
+}
+
+.inner-table td {
+  color: rgba(85, 44, 8, 0.415);
+  font-family: "Signika", sans-serif !important;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.fa-clock-X {
+  color: orange;
+  background-color: rgba(251, 148, 45, 0.895);
+  padding: 5px;
+  border-radius: 50%;
+  border: rgba(255, 255, 255, 0.817) 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
